@@ -1,0 +1,38 @@
+{
+  "name": "log210",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "email-regex": "^3.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "nodemailer": "^4.7.0",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "node-mocks-http": "^1.7.3",
+    "supertest": "^3.3.0"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "**/src/**/*.js"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "NODE_ENV=test jest --coverage",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
