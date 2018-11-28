@@ -5,9 +5,9 @@ const dbTestName = 'log210_test.db';
 
 function getDBPath() {
     if (process.env.NODE_ENV === 'test') {
-        return path.resolve('./../db/', dbTestName);
+        return path.resolve('./db/', dbTestName);
     } else {
-        return path.resolve('./../db/', dbName);
+        return path.resolve('./db/', dbName);
     }
 }
 
