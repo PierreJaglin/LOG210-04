@@ -1,5 +1,5 @@
 const ServiceDBA = require("../dba/serviceDBA");
-const ServiceLineModel = require("../models/ServiceLineModel");
+const ServiceLineModel = require("../models/serviceLineModel");
 const HistoriqueModel = require("../models/historiqueTarificationServiceModel");
 
 module.exports = class ServiceModel {

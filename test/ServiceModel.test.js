@@ -1,5 +1,5 @@
 const ServiceModel = require("../src/models/serviceModel");
-const ServiceLineModel = require("../src/models/ServiceLineModel");
+const ServiceLineModel = require("../src/models/serviceLineModel");
 const HistoriqueModel = require("../src/models/historiqueTarificationServiceModel");
 
 describe("Get Service Model tests", function() {
