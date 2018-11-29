@@ -11,7 +11,7 @@ const serviceRouter = require("./src/routers/serviceRouter.js");
 const historiqueRouter = require("./src/routers/historiqueRouter.js");
 const referentRouter = require("./src/routers/referentRouter.js");
 
-const port = 5000;
+const port = process.env.port || 5000;
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
